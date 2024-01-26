@@ -1,6 +1,3 @@
 {
-  /*
-  "builds": [
-    { "src": "*.dmg", "use": "@vercel/static" }
-  ]*/
+
 }
