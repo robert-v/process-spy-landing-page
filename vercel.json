@@ -1,5 +1,6 @@
 {
+  /*
   "builds": [
-    //{ "src": "*.dmg", "use": "@vercel/static" }
-  ]
+    { "src": "*.dmg", "use": "@vercel/static" }
+  ]*/
 }
