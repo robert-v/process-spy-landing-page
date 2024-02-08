@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ProcessSpy</title>
+        <item>
+            <title>1.2</title>
+            <pubDate>Fri, 02 Feb 2024 15:50:48 +0100</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="ProcessSpy_1.2.dmg" length="662387" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
