@@ -9,7 +9,7 @@
             <sparkle:version>1.2.1</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://process-spy.netlify.app/archive/ProcessSpy_1.2.1.dmg" length="1555212" type="application/octet-stream"/>
+            <enclosure url="https://process-spy.netlify.app/archive/ProcessSpy_1.2.1.zip" length="1272704" type="application/octet-stream" sparkle:edSignature="9RFNt8l7gyhZch7AUK1soLN3BG/bnH4rrv8zL5Ib8fflw6lYLOschdCsG/obEpG4h5YCh26SMdzBa1EKNqwXCQ=="/>
         </item>
         <item>
             <title>1.2</title>
@@ -18,7 +18,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="ProcessSpy_1.2.dmg" length="662387" type="application/octet-stream"/>
+            <enclosure url="ProcessSpy_1.2.dmg" length="667684" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
