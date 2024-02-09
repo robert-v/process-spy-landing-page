@@ -4,7 +4,17 @@
         <title>ProcessSpy</title>
         <item>
             <title>1.2</title>
+            <pubDate>Fri, 09 Feb 2024 14:12:24 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://process-spy.netlify.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.2.1</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://process-spy.netlify.app/archive/ProcessSpy_1.2.1.dmg" length="1555212" type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>1.2</title>
             <pubDate>Fri, 02 Feb 2024 15:50:48 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://process-spy.netlify.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
