@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden container mx-auto bg-emerald-100 mb-10">
+  <div class="relative overflow-hidden container mx-auto bg-emerald-100">
     <header class="h-50 flex items-center">
       <div class="flex items-center grow">
         <img alt="Vue logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
@@ -39,7 +39,7 @@
 
     </div>
 
-    <footer class="mt-10 mb-10 font-bold text-center">
+    <footer class="mt-20 mb-10 font-bold text-center">
       <span class="m-10">© 2024 ProcessSpy</span>
       <span>Made by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
     </footer>
