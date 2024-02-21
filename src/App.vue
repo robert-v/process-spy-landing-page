@@ -39,6 +39,11 @@
 
     </div>
 
+    <footer class="mt-10 mb-10 font-bold text-center">
+      <span class="m-10">© 2024 ProcessSpy</span>
+      <span>Made by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
+    </footer>
+
     <HelloWorld msg="ProcessSpy"/>
   </div>
 </template>
