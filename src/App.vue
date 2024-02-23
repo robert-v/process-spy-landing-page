@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden container mx-auto bg-emerald-100">
+  <div class="relative overflow-hidden container mx-auto bg-emerald-100 max-w-7xl">
     <header class="h-50 flex items-center p-4">
       <div class="flex items-center grow">
         <img alt="Vue logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
@@ -11,7 +11,7 @@
       </div>
     </header>
 
-    <div class="md:flex mt-4">
+    <div class="md:flex mt-4 max-w-7xl">
        <div class="md:shrink-0 md:w-1/3 p-4">
          <h1 class="text-6xl mt-6 text-left font-extrabold">View all macOS processes</h1>
          <p class="mt-8">
