@@ -3,7 +3,7 @@
     <header class="h-50 flex items-center p-4">
       <div class="flex items-center grow">
         <img alt="Vue logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
-        <h1 class="text-3xl font-bold">ProcessSpy</h1>
+        <h1 class="invisible sm:visible text-3xl font-bold">ProcessSpy</h1>
       </div>
       <div class="flex flex-col text-center">
         <a href="/archive/ProcessSpy_1.2.1.zip" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
@@ -39,7 +39,7 @@
     </div>
 
     <footer class="mt-20 mb-10 font-bold text-center">
-      <span class="p-10">© 2024 ProcessSpy</span>
+      <span class="mr-6">© 2024 ProcessSpy</span>
       <span>Made by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
     </footer>
 
