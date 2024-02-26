@@ -21,10 +21,8 @@
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
              <li>
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="h-4 w-4 flex-shrink-0 font-bold text-green-800 float-left"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
                <b>highlight</b> processes with custom colors based on search string</li>
              <li>
-               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" class="h-4 w-4 flex-shrink-0 font-bold text-green-800 float-left"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
                <b>bring</b> selected process <b>to foreground</b></li>
              <li><b>search</b> process information <b>online</b></li>
              <li><b>open</b> process path in <b>Finder</b> (where available)</li>
