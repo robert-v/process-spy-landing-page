@@ -3,6 +3,18 @@
     <channel>
         <title>ProcessSpy</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Tue, 27 Feb 2024 10:15:50 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://process-spy.vercel.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.2.2</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://process-spy.vercel.app/archive/ProcessSpy_1.2.2.zip" length="1272671" type="application/octet-stream" sparkle:edSignature="lpdPg9BolUmz+Lr8lsIQRAHLXVjkZ/OeCwDsAmLammoRsFQvwxa0zr3oAV/yOIyc4uZ44idMGEf5cbqRIYH3Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://process-spy.vercel.app/archive/ProcessSpy1.2.2-1.2.1.delta" sparkle:deltaFrom="1.2.1" length="11806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="fcd4o+Whl4qaqER4omF6HKbIfd92BpMxJVfSBjk67w8joc90KGIu/n+WfpJdNAIYBaLQGPbbjbqmglYvsjBUDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Fri, 09 Feb 2024 14:12:24 +0100</pubDate>
             <sparkle:fullReleaseNotesLink>https://process-spy.netlify.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
