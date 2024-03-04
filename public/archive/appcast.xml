@@ -3,6 +3,19 @@
     <channel>
         <title>ProcessSpy</title>
         <item>
+            <title>1.3.0</title>
+            <pubDate>Mon, 04 Mar 2024 11:16:55 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://process-spy.vercel.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.3.0</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://process-spy.vercel.app/archive/ProcessSpy_1.3.0.zip" length="1301752" type="application/octet-stream" sparkle:edSignature="qloMgKeEBYRhhs7iQkDUO5V9wTZlMjkYozsEStZctX/PQtxK7IT5onFv4b/rKHco6/k/3tpea3ustlX8RsstDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://process-spy.vercel.app/archive/ProcessSpy1.3.0-1.2.2.delta" sparkle:deltaFrom="1.2.2" length="97982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="rSAfnJetW8ZjkO9BMIi+q3B3t33dDUt5AwE50nAvbINl6XLt3VcRlvyaeTSATcY69xcbBmws+je2IwC8K64RCQ=="/>
+                <enclosure url="https://process-spy.vercel.app/archive/ProcessSpy1.3.0-1.2.1.delta" sparkle:deltaFrom="1.2.1" length="98398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nMSY5ZqnsUax8Qw9Ge0u80sD1/rEQ05gY+HYKMNVUrJHmpa4Dd+aGapAzvq9Jd7BT2X3LHTX86tlEF9SPTjjCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Tue, 27 Feb 2024 10:15:50 +0100</pubDate>
             <sparkle:fullReleaseNotesLink>https://process-spy.vercel.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
@@ -22,15 +35,6 @@
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://process-spy.netlify.app/archive/ProcessSpy_1.2.1.zip" length="1272704" type="application/octet-stream" sparkle:edSignature="9RFNt8l7gyhZch7AUK1soLN3BG/bnH4rrv8zL5Ib8fflw6lYLOschdCsG/obEpG4h5YCh26SMdzBa1EKNqwXCQ=="/>
-        </item>
-        <item>
-            <title>1.2</title>
-            <pubDate>Fri, 02 Feb 2024 15:50:48 +0100</pubDate>
-            <sparkle:fullReleaseNotesLink>https://process-spy.netlify.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="ProcessSpy_1.2.dmg" length="667684" type="application/octet-stream"/>
         </item>
     </channel>
 </rss>
