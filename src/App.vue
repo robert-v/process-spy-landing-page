@@ -37,12 +37,53 @@
       <div class="mt-5 w-full p-4">
         <img src="./assets/screenshot_1.png" class="rounded-2xl">
       </div>
+    </div>
 
+    <div class="text-center mt-20 mb-10 text-4xl p-4">
+      <h1 class="font-extrabold">Search processes instantly</h1>
+      <p class="text-2xl mb-10">Fast real-time search.</p>
+        <video crossorigin playsinline autoplay loop class="mx-auto rounded-lg w-full" height="400">
+          <source
+              src="/videos/search_macos_processes_instantly%202.mov"
+              type="video/mp4"
+          />
+        </video>
+    </div>
+
+    <div class="md:flex max-w-7xl mt-20">
+      <div class="w-450 p-4">
+        <img src="./assets/screenshot_2.png" class="rounded-2xl">
+      </div>
+      <div class="md:shrink-0 md:w-1/3 p-4 text-left w-full ml-10">
+        <h1 class="text-4xl font-bold mb-10">Useful context menu actions</h1>
+        <p>Bring application to foreground</p>
+        <p>Search process information online</p>
+        <p>Show process path in Finder</p>
+        <p>Copy Path or whole Command</p>
+        <p>Quit process (SIGINT)</p>
+      </div>
+    </div>
+
+    <div class="md:flex max-w-7xl text-center mt-20">
+      <div class="w-full md:shrink-0 md:w-1/3 p-4 text-left">
+        <h1 class="text-4xl font-bold mb-10">Highlight processes with custom colors</h1>
+        <p>Choose any color to highlight process <b>Name</b> in the process table</p>
+        <p>Works also for <b>Command</b> column</p>
+        </div>
+      <div class="w-450 p-4">
+        <img src="./assets/screenshot_3.png" class="rounded-2xl object-cover">
+      </div>
+    </div>
+
+    <div class="text-center mt-20 mb-10 p-4">
+      <h1 class="font-extrabold text-4xl">View open files and access them instantly</h1>
+      <p class="text-2xl mb-10">Open files with your favourite tool</p>
+      <img src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
     </div>
 
     <footer class="mt-20 mb-10 font-bold text-center">
       <span class="mr-6">© 2024 ProcessSpy</span>
-      <span>Made by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
+      <span>Made with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
     </footer>
 
     <HelloWorld msg="ProcessSpy"/>
