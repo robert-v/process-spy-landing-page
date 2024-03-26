@@ -42,7 +42,7 @@
     <div class="text-center mt-20 mb-10 text-4xl p-4">
       <h1 class="font-extrabold">Search processes instantly</h1>
       <p class="text-2xl mb-10">Fast real-time search.</p>
-        <video crossorigin playsinline autoplay loop class="mx-auto rounded-lg w-full" height="400">
+        <video crossorigin controls playsinline autoplay loop class="mx-auto rounded-lg w-full" height="400">
           <source
               src="/videos/search_macos_processes_instantly%202.mov"
               type="video/mp4"
