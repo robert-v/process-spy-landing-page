@@ -82,8 +82,21 @@
     </div>
 
     <footer class="mt-20 mb-10 font-bold text-center">
+      <div class="container mt-10 items-center justify-center mb-6">
+        <div>
+          <span class="block">If you like this tool, you can buy me a coffee:</span>
+        </div>
+        <div class="flex text-center justify-center mt-6">
+          <div class="w-32 h-32">
+            <a href="https://www.buymeacoffee.com/rob3rth" target="_blank">
+              <img src="./assets/bmc_qr.png" class="rounded-2xl w-32 h-32">
+            </a>
+          </div>
+        </div>
+      </div>
       <span class="mr-6">© 2024 ProcessSpy</span>
       <span>Made with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
+
     </footer>
 
     <HelloWorld msg="ProcessSpy"/>
