@@ -30,6 +30,7 @@
              <li><b>quit</b> selected process</li>
              <li>view <b>open files</b></li>
              <li>view <b>open connections</b></li>
+             <li>run macOS <b>Shortcuts</b> on process start/finish</li>
            </ul>
          </div>
        </div>
