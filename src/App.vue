@@ -8,6 +8,7 @@
       <div class="flex flex-col text-center">
         <a @click='storeDownload' href="/archive/ProcessSpy_1.3.5.dmg" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
         <span class="text-xs mt-1" style="font-size: 10pt">v1.3.5, Apple Silicon and Intel, macOS 10.15+</span>
+        <span class="text-xs mt-1" style="font-size: 10pt">(Apple notarized .app file in .dmg archive)</span>
       </div>
     </header>
 
@@ -96,7 +97,9 @@
         </div>
       </div>
       <span class="mr-6">© 2024 ProcessSpy</span>
-      <span>Made with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
+      <span class="mr-6">Created with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
+      <span class="mr-6"><a href="/privacy-policy.html" target="_blank">Privacy policy</a></span>
+      <span><a href="/archive/release_notes.html" target="_blank">Release notes</a></span>
 
     </footer>
 
