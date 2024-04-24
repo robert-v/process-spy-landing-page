@@ -99,10 +99,9 @@
       <span class="mr-6">© 2024 ProcessSpy</span>
       <span class="mr-6">Created with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
       <span class="mr-6"><a href="/privacy-policy.html" target="_blank">Privacy policy</a></span>
-      <span><a href="/archive/release_notes.html" target="_blank">Release notes</a></span>
-
+      <span class="mr-6"><a href="/archive/release_notes.html" target="_blank">Release notes</a></span>
+      <span>Support: <a href="mailto:processspy@icloud.com">processspy@icloud.com</a></span>
     </footer>
-
     <HelloWorld msg="ProcessSpy"/>
   </div>
 </template>
