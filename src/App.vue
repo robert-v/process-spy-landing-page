@@ -37,7 +37,7 @@
        </div>
 
       <div class="mt-5 w-full p-4">
-        <img src="./assets/screenshot_1.png" class="rounded-2xl">
+        <img alt="View all macOS processes at a glance " src="./assets/screenshot_1.png" class="rounded-2xl">
       </div>
     </div>
 
@@ -54,7 +54,7 @@
 
     <div class="md:flex max-w-7xl mt-20">
       <div class="w-450 p-4">
-        <img src="./assets/screenshot_2.png" class="rounded-2xl">
+        <img alt="Search macOS process online, copy path and more" src="./assets/screenshot_2.png" class="rounded-2xl">
       </div>
       <div class="md:shrink-0 md:w-1/3 p-4 text-left w-full ml-10">
         <h1 class="text-4xl font-bold mb-10">Useful context menu actions</h1>
@@ -73,14 +73,14 @@
         <p>Works also for <b>Command</b> column</p>
         </div>
       <div class="w-450 p-4">
-        <img src="./assets/screenshot_3.png" class="rounded-2xl object-cover">
+        <img alt="Highlight macOS process with custom color based on name or command text" src="./assets/screenshot_3.png" class="rounded-2xl object-cover">
       </div>
     </div>
 
     <div class="text-center mt-20 mb-10 p-4">
       <h1 class="font-extrabold text-4xl">View open files and access them instantly</h1>
       <p class="text-2xl mb-10">Open files with your favourite tool</p>
-      <img src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
+      <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
     </div>
 
     <footer class="mt-20 mb-10 font-bold text-center">
@@ -91,7 +91,7 @@
         <div class="flex text-center justify-center mt-6">
           <div class="w-32 h-32">
             <a href="https://www.buymeacoffee.com/rob3rth" target="_blank">
-              <img src="./assets/bmc_qr.png" class="rounded-2xl w-32 h-32">
+              <img alt="Buy me a coffee QR code" src="./assets/bmc_qr.png" class="rounded-2xl w-32 h-32">
             </a>
           </div>
         </div>
@@ -101,7 +101,7 @@
       </div>
       <span class="mr-6">© 2024 ProcessSpy</span>
       <span class="mr-6">Created with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a></span>
-      <span class="mr-6"><a href="/privacy-policy.html" target="_blank">Privacy policy</a></span>
+      <span class="mr-6"><a href="/privacy_policy.html" target="_blank">Privacy policy</a></span>
       <span class="mr-6"><a href="/archive/release_notes.html" target="_blank">Release notes</a></span>
       <span>Support: <a class="underline" href="mailto:processspy@icloud.com">processspy@icloud.com</a></span>
     </footer>
