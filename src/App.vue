@@ -5,10 +5,10 @@
         <img alt="Vue logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
         <h1 class="invisible sm:visible text-3xl font-bold">ProcessSpy</h1>
       </div>
-      <div class="flex flex-col text-center">
+      <div class="flex flex-col items-center text-center">
         <a @click='storeDownload' href="/archive/ProcessSpy_1.3.5.dmg" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
         <span class="text-xs mt-1" style="font-size: 10pt">v1.3.5, Apple Silicon and Intel, macOS 10.15+</span>
-        <span class="text-xs mt-1" style="font-size: 10pt">(Apple notarized .app file in .dmg archive)</span>
+        <span class="text-xs mt-1" style="font-size: 10pt">(100% safe Apple notarized .app file in .dmg)</span>
       </div>
     </header>
 
@@ -16,7 +16,7 @@
        <div class="md:shrink-0 md:w-1/3 p-4">
          <h1 class="text-6xl mt-6 text-left font-extrabold">View all macOS processes</h1>
          <p class="mt-8">
-           View macOS processes with <b>command line arguments</b>. Other features:
+           Monitor macOS processes with <b>command line arguments</b>. Other features:
          </p>
 
          <div class="justify-items-start mt-6 text-left">
