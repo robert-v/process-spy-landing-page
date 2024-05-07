@@ -7,7 +7,7 @@
       </div>
       <div class="flex flex-col items-center text-center">
         <a @click='storeDownload' href="/archive/ProcessSpy_1.4.0.dmg" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
-        <span class="text-xs mt-1" style="font-size: 10pt">v1.4.0, Apple Silicon and Intel, macOS 10.15+</span>
+        <span class="text-xs mt-1" style="font-size: 10pt">v1.4.0, Apple Silicon and Intel, macOS 14.0+</span>
         <span class="text-xs mt-1" style="font-size: 10pt">(100% safe Apple notarized .app file in .dmg)</span>
       </div>
     </header>
