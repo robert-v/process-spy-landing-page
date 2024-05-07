@@ -14,7 +14,8 @@
 
     <div class="md:flex mt-4 max-w-7xl">
        <div class="md:shrink-0 md:w-1/3 p-4">
-         <h1 class="text-6xl mt-6 text-left font-extrabold">View all macOS processes</h1>
+         <h1 class="text-6xl mt-6 text-left font-extrabold">Monitor macOS Processes</h1>
+         <h1 class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</h1>
          <p class="mt-8">
            Monitor macOS processes with <b>command line arguments</b>. Other features:
          </p>
