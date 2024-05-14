@@ -125,7 +125,7 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 
-const latest_version = "1.4.1"
+const latest_version = "1.4.2"
 
 function storeDownload(){
   fetch("https://process-spy-backend.vercel.app/api/downloads", {
