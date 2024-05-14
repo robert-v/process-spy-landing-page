@@ -96,6 +96,13 @@
       <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
     </div>
 
+    <div class="text-center mt-20 mb-10 p-4">
+      <h1 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h1>
+      <div class="mt-10">
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
+      </div>
+    </div>
+
     <footer class="mt-20 mb-10 font-bold text-center">
       <div class="container mt-10 items-center justify-center mb-6">
         <div>
@@ -122,18 +129,33 @@
   </div>
 </template>
 
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+  import axios from 'axios';
+  import HelloWorld from "@/components/HelloWorld.vue";
 
-const latest_version = "1.4.2"
-
-function storeDownload(){
-  fetch("https://process-spy-backend.vercel.app/api/downloads", {
-    method: "POST",
-    body: ''
-    });
-}
-
+  export default {
+    components: {HelloWorld},
+    async created() {
+      const data = await axios.get(`https://process-spy-backend.vercel.app/api/downloads`)
+      if (data) {
+        this.downloads = data.data.message;
+      }
+    },
+    methods: {
+      storeDownload: function(){
+        fetch("https://process-spy-backend.vercel.app/api/downloads", {
+          method: "POST",
+          body: ''
+        });
+      }
+    },
+    data() {
+      return {
+         downloads: null,
+         latest_version: "1.4.2"
+      }
+    }
+  }
 </script>
 
 <style>
