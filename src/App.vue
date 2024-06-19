@@ -39,7 +39,7 @@
        </div>
 
       <div class="mt-5 w-full p-4">
-        <img alt="View all macOS processes at a glance " src="./assets/screenshot_1.png" class="rounded-2xl">
+        <img alt="View all macOS processes at a glance " src="./assets/screenshot_0.png" class="rounded-2xl drop-shadow-md">
       </div>
     </div>
 
