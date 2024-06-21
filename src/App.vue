@@ -59,7 +59,7 @@
       <p class="text-2xl mb-10">Find the owner process of that annoying popup.</p>
       <video crossorigin controls playsinline autoplay muted loop class="mx-auto rounded-lg w-full" height="400">
         <source
-            src="/videos/find_macos_processes_with_mouse_click.mov"
+            src="/videos/find_macos_processes_with_mouse_click_disabled.mov"
             type="video/mp4"
         />
       </video>
