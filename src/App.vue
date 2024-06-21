@@ -39,7 +39,7 @@
        </div>
 
       <div class="mt-5 w-full p-4">
-        <img alt="View all macOS processes at a glance " src="./assets/screenshot_0.png" class="rounded-2xl drop-shadow-md">
+        <img alt="View all macOS processes at a glance " src="./assets/screenshot_0.png" class="rounded-2xl drop-shadow-sm">
       </div>
     </div>
 
@@ -53,7 +53,7 @@
           />
         </video>
     </div>
-
+<!--
     <div class="text-center mt-20 mb-10 text-4xl p-4">
       <h1 class="font-extrabold">Find process with a mouse click</h1>
       <p class="text-2xl mb-10">Find the owner process of that annoying popup.</p>
@@ -64,7 +64,7 @@
         />
       </video>
     </div>
-
+-->
     <div class="md:flex max-w-7xl mt-20">
       <div class="w-450 p-4">
         <img alt="Search macOS process online, copy path and more" src="./assets/screenshot_2.png" class="rounded-2xl">
