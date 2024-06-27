@@ -46,25 +46,15 @@
     <div class="text-center mt-20 mb-10 text-4xl p-4">
       <h1 class="font-extrabold">Search processes instantly</h1>
       <p class="text-2xl mb-10">Fast real-time search.</p>
-        <video crossorigin controls playsinline autoplay muted loop class="mx-auto rounded-lg w-full" height="400">
-          <source
-              src="/videos/search_macos_processes_instantly%202.mov"
-              type="video/mp4"
-          />
-        </video>
+        <img alt="Search macOS processes instantly." src="/videos/search_macos_processes_instantly%202.gif" class="rounded-2xl">
     </div>
-<!--
+
     <div class="text-center mt-20 mb-10 text-4xl p-4">
       <h1 class="font-extrabold">Find process with a mouse click</h1>
       <p class="text-2xl mb-10">Find the owner process of that annoying popup.</p>
-      <video crossorigin controls playsinline autoplay muted loop class="mx-auto rounded-lg w-full" height="400">
-        <source
-            src="/videos/find_macos_processes_with_mouse_click_disabled.mov"
-            type="video/mp4"
-        />
-      </video>
+      <img alt="Find macOS process with a mouse click" src="/videos/find_macos_processes_with_mouse_click.gif" class="rounded-2xl">
     </div>
--->
+
     <div class="md:flex max-w-7xl mt-20">
       <div class="w-450 p-4">
         <img alt="Search macOS process online, copy path and more" src="./assets/screenshot_2.png" class="rounded-2xl">
