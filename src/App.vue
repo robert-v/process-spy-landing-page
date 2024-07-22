@@ -126,7 +126,7 @@
   export default {
     components: {HelloWorld},
     async created() {
-      const data = await axios.get(`https://process-spy.app/api/downloads`)
+      const data = await axios.get(`https://process-spy-backend.vercel.app/api/downloads`)
       if (data) {
         this.downloads = data.data.message;
       }
