@@ -133,7 +133,7 @@
     },
     methods: {
       storeDownload: function(){
-        fetch("https://process-spy.app/api/downloads", {
+        fetch("https://process-spy-backend.vercel.app/api/downloads", {
           method: "POST",
           body: ''
         });
