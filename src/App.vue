@@ -126,14 +126,14 @@
   export default {
     components: {HelloWorld},
     async created() {
-      const data = await axios.get(`https://process-spy-backend.vercel.app/api/downloads`)
+      const data = await axios.get(`https://process-spy.app/api/downloads`)
       if (data) {
         this.downloads = data.data.message;
       }
     },
     methods: {
       storeDownload: function(){
-        fetch("https://process-spy-backend.vercel.app/api/downloads", {
+        fetch("https://process-spy.app/api/downloads", {
           method: "POST",
           body: ''
         });
@@ -142,7 +142,7 @@
     data() {
       return {
          downloads: null,
-         latest_version: "1.5.4"
+         latest_version: "1.6.0"
       }
     }
   }
