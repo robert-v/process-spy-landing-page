@@ -9,7 +9,6 @@
     "node": "18.x"
   },
   "dependencies": {
-    "@videojs-player/vue": "^1.0.0",
     "@wdns/vue-code-block": "^2.3.3",
     "axios": "^1.6.8",
     "core-js": "^3.30.2",

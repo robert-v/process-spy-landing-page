@@ -100,8 +100,7 @@
         <VCodeBlock
             code="brew install --cask processspy"
             highlightjs
-            lang="console"
-            persistentCopyButton
+            lang="shell"
             theme="monokai"
         />
       </div>
@@ -155,8 +154,8 @@
     },
     data() {
       return {
-         downloads: null,
-         latest_version: "1.6.0"
+        downloads: null,
+        latest_version: "1.6.0"
       }
     }
   }
