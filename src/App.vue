@@ -92,7 +92,7 @@
         <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
       </div>
     </div>
-
+<!--
     <div class="flex flex-wrap justify-center text-center mt-10 mb-10 p-4">
       <h1 class="w-full font-extrabold text-2xl">or install from <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Terminal</span>:</h1>
 
@@ -100,15 +100,13 @@
         <VCodeBlock
             code="function a(){}"
             highlightjs="true"
-
             lang="shell"
             theme="obsidian"
             persistentCopyButton="true"
         />
       </div>
-
     </div>
-
+-->
 
 
     <footer class="mt-20 mb-10 font-bold text-center">
