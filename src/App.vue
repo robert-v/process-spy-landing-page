@@ -6,7 +6,7 @@
         <h1 class="invisible sm:visible text-3xl font-bold">ProcessSpy</h1>
       </div>
       <div class="flex flex-col items-center text-center">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
         <span class="text-xs mt-1" style="font-size: 10pt">v{{latest_version}}, Apple Silicon and Intel, macOS 14.0+</span>
         <span class="text-xs mt-1" style="font-size: 10pt">(100% safe Apple notarized .app file in .dmg)</span>
       </div>
@@ -89,14 +89,32 @@
     <div class="text-center mt-20 mb-10 p-4">
       <h1 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h1>
       <div class="mt-10">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Download Free</a>
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
       </div>
     </div>
+
+    <div class="flex flex-wrap justify-center text-center mt-10 mb-10 p-4">
+      <h1 class="w-full font-extrabold text-2xl">or install from <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Terminal</span>:</h1>
+
+      <div class="mt-4" style="width:500px">
+        <VCodeBlock
+            code="function a(){}"
+            highlightjs="true"
+
+            lang="shell"
+            theme="obsidian"
+            persistentCopyButton="true"
+        />
+      </div>
+
+    </div>
+
+
 
     <footer class="mt-20 mb-10 font-bold text-center">
       <div class="container mt-10 items-center justify-center mb-6">
         <div>
-          <span class="block">If you like this tool, you can buy me a coffee:</span>
+          <span class="block">If you like this tool, please consider buying me a coffee:</span>
         </div>
         <div class="flex text-center justify-center mt-6">
           <div class="w-32 h-32">
@@ -106,7 +124,7 @@
           </div>
         </div>
         <div class="mt-6">
-          <p>and write a <a class="underline" target="_blank" href="https://senja.io/p/processspy/r/NTKt5r">testimonial</a> 😍</p>
+          <p>and writing a <a class="underline" target="_blank" href="https://senja.io/p/processspy/r/NTKt5r">testimonial</a> 😍</p>
         </div>
       </div>
       <span class="mr-6">© 2024 ProcessSpy</span>
@@ -126,14 +144,14 @@
   export default {
     components: {HelloWorld},
     async created() {
-      const data = await axios.get(`https://process-spy-backend.vercel.app/api/downloads`)
+      const data = await axios.get(`https://backend.process-spy.app/api/downloads`)
       if (data) {
         this.downloads = data.data.message;
       }
     },
     methods: {
       storeDownload: function(){
-        fetch("https://process-spy-backend.vercel.app/api/downloads", {
+        fetch("https://backend.process-spy.app/api/downloads", {
           method: "POST",
           body: ''
         });
