@@ -23,23 +23,22 @@
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
              <li>
-               <b>highlight</b> processes with custom colors based on search string</li>
-             <li>
-               <b>bring</b> selected process <b>to foreground</b></li>
+               <b>highlight</b> processes with custom colors</li>
              <li><b>search</b> process information <b>online</b></li>
              <li><b>open</b> process path in <b>Finder</b> (where available)</li>
-             <li><b>copy</b> process path (where available)</li>
+
              <li><b>quit</b> selected process</li>
              <li>view <b>open files</b></li>
              <li>view <b>open connections</b></li>
              <li>run macOS <b>Shortcuts</b> on process start/finish</li>
-             <li>get macOS process <b>by clicking anywhere</b> on the screen</li>
+             <li>get macOS process <b>with mouse click</b></li>
+             <li>define <b>own filters</b> in Javascript</li>
            </ul>
          </div>
        </div>
 
       <div class="mt-5 w-full p-4">
-        <img alt="View all macOS processes at a glance " src="./assets/screenshot_0.png" class="rounded-2xl drop-shadow-sm">
+        <img alt="View all macOS processes at a glance " src="./assets/screenshot_5.jpg" class="rounded-2xl drop-shadow-sm">
       </div>
     </div>
 
@@ -155,7 +154,7 @@
     data() {
       return {
         downloads: null,
-        latest_version: "1.6.2"
+        latest_version: "1.6.3"
       }
     }
   }
