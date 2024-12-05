@@ -19,7 +19,6 @@
          <p class="mt-8">
            Monitor macOS processes with <b>command line arguments</b>. Other features:
          </p>
-
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
              <li>
