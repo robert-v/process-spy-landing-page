@@ -3,6 +3,22 @@
     <channel>
         <title>ProcessSpy</title>
         <item>
+            <title>1.6.7</title>
+            <pubDate>Wed, 07 May 2025 08:48:14 +0200</pubDate>
+            <sparkle:fullReleaseNotesLink>https://process-spy.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.6.7</sparkle:version>
+            <sparkle:shortVersionString>1.6.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://process-spy.app/archive/ProcessSpy_1.6.7.zip" length="2374513" type="application/octet-stream" sparkle:edSignature="D37u7GcvChtpvCXHzrnbtPyVj+Ao0TpY3idFDNNjTOfQ7wj3KPDH/+2VE/INSDpKg7sYTbBGwB2c/v7r8xfwBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.7-1.6.6.delta" sparkle:deltaFrom="1.6.6" length="331350" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="oey6o4xDGtESWqYSu9/HOL4mMrjuPgUEvyUnIqS2TbQ5QLP62cawRBB1CUSVDcCDEdsY8Le5IffPyj4PGUeODQ=="/>
+                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.7-1.6.5.delta" sparkle:deltaFrom="1.6.5" length="346114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Q7yzDVPe3kBdGHdfihDSZYc9Q5s4N8RCUGjctpmQLA5yQfcFIPx53y9FUZflLWK1j7CkaYssMu1/YGbMrAFpBA=="/>
+                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.7-1.6.4.delta" sparkle:deltaFrom="1.6.4" length="347766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4k0c+K3yKBrpBTFjaKPwOf+Vq97zSX4uYuhwWfF0QPwem2Oq4JGIcAw7xWa1tRmFQOWUQJKQ+R7TiEY/f1MSAA=="/>
+                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.7-1.6.3.delta" sparkle:deltaFrom="1.6.3" length="354978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="TANh+aJD8WwKSsGnz0z3lkIMVplvD2Y2OFDXikN9fpmpW+WL9cf7zIcp8lXCudn+X/w7+2RMDCvoecany1SqCw=="/>
+                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.7-1.6.2.delta" sparkle:deltaFrom="1.6.2" length="357442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="7FPfA5tRiHaOvUwnlzT3+6ctbHUQ7M0V9Y2cT/Gtf50sqXib2sUDNQ7JunR+oyXn46yi9PvuTlA1pDP+UI+8Bg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.6.6</title>
             <pubDate>Tue, 25 Mar 2025 13:05:54 +0100</pubDate>
             <sparkle:fullReleaseNotesLink>https://process-spy.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
@@ -32,22 +48,6 @@
                 <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.5-1.6.2.delta" sparkle:deltaFrom="1.6.2" length="141454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="S9O//ioG0EyXo1Uz7ktKK7xyAfA1R0rx6H95JsFG5SeNo9W+cy5gdAix9ZTAEhPDcwR8p2E7r93QmNCfz2nyAg=="/>
                 <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.5-1.6.1.delta" sparkle:deltaFrom="1.6.1" length="631182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="hceU40Inb8+n41VMsHbeILzXrbs/c3CFvxeCBp/GNdt1pg6CjjoRclkBsfE14Qn+W7Xy0cFQnIqLfk1T87B0Dg=="/>
                 <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.5-1.6.0.delta" sparkle:deltaFrom="1.6.0" length="632782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="fh7rqLeJ8ePPDoQY7mBq8MDSVyJ2ji5X23ArH5c7GSJo8modn90dYLRgxIaQt7NgNbejhfmw6b9bn5HgZSQFDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.6.4</title>
-            <pubDate>Tue, 19 Nov 2024 10:39:00 +0100</pubDate>
-            <sparkle:fullReleaseNotesLink>https://process-spy.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.6.4</sparkle:version>
-            <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://process-spy.app/archive/ProcessSpy_1.6.4.zip" length="2327217" type="application/octet-stream" sparkle:edSignature="COludlHxZpfQD8PKsxj15oWEOUxzwVVgKQg6sqWRh0hQj4gfZ4HJEMgMmJCrWAWE9cBqiJ4k9lKbH0LCGvOGCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.4-1.6.2.delta" sparkle:deltaFrom="1.6.2" length="123082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="EFBDrsBjCKuMUDk0pYVUeMouDNqQLUdsemO/PhzLH3TDZByRlUhVqqHJbHD/1fk0SpFhlRHIPC6QdfAJ5DL/Bg=="/>
-                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.4-1.6.3.delta" sparkle:deltaFrom="1.6.3" length="111058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="F5apXjJwO94iekIfwJIkBI0dnW9qF9iWRP5zzhUfxa9YxmrR4ZhZUnS9RCPSz1W079eWXPaEC3Uu2DvxDT2OAA=="/>
-                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.4-1.6.0.delta" sparkle:deltaFrom="1.6.0" length="629870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="R2EzZF+tQdyqiksaOK3G+3m36eyiM20aZ8A5+wa6NDLFBtz5vhIRZtdqcEz5gNX7HM3V62GCorFNZYKdnU+hDA=="/>
-                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.4-1.6.1.delta" sparkle:deltaFrom="1.6.1" length="628058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="yiwaZTKKmCjv/GsnaJY6Xe2VHWgGfyu9hqzyFN0SzDUqqjPyPt/Taz4MG4Cg4GnFuDVb3po2XEQkEdaNqW/1Bw=="/>
-                <enclosure url="https://process-spy.app/archive/ProcessSpy1.6.4-1.5.4.delta" sparkle:deltaFrom="1.5.4" length="653338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="863120" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="1/sPGze72+rg9txCN1CIY1VWWRyvXZuGrVNfHuKIx6HcD54jNw+SOXhzScYyDEV0MORy2uxwxyN2iXQ+46giAA=="/>
             </sparkle:deltas>
         </item>
     </channel>
