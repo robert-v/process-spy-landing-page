@@ -2,7 +2,7 @@
   <div class="relative overflow-hidden container mx-auto bg-emerald-100 max-w-7xl">
     <header class="h-50 flex items-center p-4">
       <div class="flex items-center grow">
-        <img alt="Vue logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
+        <img alt="ProcessSpy logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
         <h1 class="invisible sm:visible text-3xl font-bold">ProcessSpy</h1>
       </div>
       <div class="flex flex-col items-center text-center">
@@ -14,8 +14,8 @@
 
     <div class="md:flex mt-4 max-w-7xl">
        <div class="md:shrink-0 md:w-1/3 p-4">
-         <h1 class="text-6xl mt-6 text-left font-extrabold">Monitor macOS Processes</h1>
-         <h1 class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</h1>
+         <h2 class="text-6xl mt-6 text-left font-extrabold">Monitor macOS Processes</h2>
+         <h2 class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</h2>
          <p class="mt-8">
            Monitor macOS processes with <b>command line arguments</b>. Other features:
          </p>
@@ -42,13 +42,13 @@
     </div>
 
     <div class="text-center mt-20 mb-10 text-4xl p-4">
-      <h1 class="font-extrabold">Search processes instantly</h1>
+      <h3 class="font-extrabold">Search processes instantly</h3>
       <p class="text-2xl mb-10">Fast real-time search.</p>
         <img alt="Search macOS processes instantly." src="/videos/search_macos_processes_instantly%202.gif" class="rounded-2xl">
     </div>
 
     <div class="text-center mt-20 mb-10 text-4xl p-4">
-      <h1 class="font-extrabold">Find process with a mouse click</h1>
+      <h3 class="font-extrabold">Find process with a mouse click</h3>
       <p class="text-2xl mb-10">Find the owner process of that annoying popup.</p>
       <img alt="Find macOS process with a mouse click" src="/videos/find_macos_processes_with_mouse_click.gif" class="rounded-2xl">
     </div>
@@ -58,7 +58,7 @@
         <img alt="Search macOS process online, copy path and more" src="./assets/screenshot_2.png" class="rounded-2xl">
       </div>
       <div class="md:shrink-0 md:w-1/3 p-4 text-left w-full ml-10">
-        <h1 class="text-4xl font-bold mb-10">Useful context menu actions</h1>
+        <h3 class="text-4xl font-bold mb-10">Useful context menu actions</h3>
         <p>Bring application to foreground</p>
         <p>Search process information online</p>
         <p>Show process path in Finder</p>
@@ -69,7 +69,7 @@
 
     <div class="md:flex max-w-7xl text-center mt-20">
       <div class="w-full md:shrink-0 md:w-1/3 p-4 text-left">
-        <h1 class="text-4xl font-bold mb-10">Highlight processes with custom colors</h1>
+        <h3 class="text-4xl font-bold mb-10">Highlight processes with custom colors</h3>
         <p>Choose any color to highlight process <b>Name</b> in the process table</p>
         <p>Works also for <b>Command</b> column</p>
         </div>
@@ -79,20 +79,20 @@
     </div>
 
     <div class="text-center mt-20 mb-10 p-4">
-      <h1 class="font-extrabold text-4xl">View open files and access them instantly</h1>
+      <h3 class="font-extrabold text-4xl">View open files and access them instantly</h3>
       <p class="text-2xl mb-10">Open files with your favourite tool</p>
       <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
     </div>
 
     <div class="text-center mt-20 mb-10 p-4">
-      <h1 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h1>
+      <h3 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h3>
       <div class="mt-10">
         <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
       </div>
     </div>
 
     <div class="flex flex-wrap justify-center text-center mt-10 mb-10 p-4">
-      <h1 class="w-full font-extrabold text-2xl">or install directly in <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Terminal</span>:</h1>
+      <h3 class="w-full font-extrabold text-2xl">or install directly in <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Terminal</span>:</h3>
 
       <div class="mt-4" style="width:500px">
         <VCodeBlock
