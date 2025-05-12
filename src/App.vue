@@ -81,7 +81,7 @@
     <div class="text-center mt-20 mb-10 p-4">
       <h3 class="font-extrabold text-4xl">View open files and access them instantly</h3>
       <p class="text-2xl mb-10">Open files with your favourite tool</p>
-      <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.png" class="rounded-2xl object-cover">
+      <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.jpg" class="rounded-2xl object-cover">
     </div>
 
     <div class="text-center mt-20 mb-10 p-4">
