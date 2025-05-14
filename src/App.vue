@@ -18,7 +18,7 @@
           <span class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</span>
          </h1>
          <p class="mt-8">
-           Monitor macOS processes with <b>command line arguments</b>. Other features:
+           Monitor Mac processes with <b>command line arguments</b>. Other features:
          </p>
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
