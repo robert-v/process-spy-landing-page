@@ -14,31 +14,29 @@
 
     <div class="md:flex mt-4 max-w-7xl">
        <div class="md:shrink-0 md:w-1/3 p-4">
-         <h1 class="text-6xl mt-6 text-left font-extrabold">Monitor macOS Processes
+         <h1 class="text-6xl mt-8 text-left font-extrabold">Monitor macOS Processes
           <span class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</span>
          </h1>
          <p class="mt-8">
-           Monitor Mac processes with <b>command line arguments</b>. Other features:
+           In-depth monitoring with advanced features:
          </p>
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
              <li>
                <b>highlight</b> processes with custom colors</li>
              <li><b>search</b> process information <b>online</b></li>
-             <li><b>open</b> process path in <b>Finder</b> (where available)</li>
-
-             <li><b>quit</b> selected process</li>
+             <li>view environment variables</li>
              <li>view <b>open files</b></li>
              <li>view <b>open connections</b></li>
              <li>run macOS <b>Shortcuts</b> on process start/finish</li>
              <li>get macOS process <b>with mouse click</b></li>
-             <li>define <b>own filters</b> in Javascript</li>
+             <li>advanced <b>Javascript filters</b></li>
            </ul>
          </div>
        </div>
 
-      <div class="mt-5 w-full p-4">
-        <img alt="View all macOS processes at a glance " src="./assets/screenshot_5.jpg" class="rounded-2xl drop-shadow-sm">
+      <div class="mt-5 w-full">
+        <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl drop-shadow-sm">
       </div>
     </div>
 
@@ -60,7 +58,6 @@
       </div>
       <div class="md:shrink-0 md:w-1/3 p-4 text-left w-full ml-10">
         <h2 class="text-4xl font-bold mb-10">Useful context menu actions</h2>
-        <p>Bring application to foreground</p>
         <p>Search process information online</p>
         <p>Show process path in Finder</p>
         <p>Copy Path or whole Command</p>
