@@ -6,7 +6,7 @@
         <span class="invisible sm:visible text-3xl font-bold">ProcessSpy</span>
       </div>
       <div class="flex flex-col items-center text-center">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" rel="nofollow" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" rel="nofollow" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style="padding:12px; color: white; border-radius:25px;">Free Download</a>
         <span class="text-xs mt-1" style="font-size: 10pt">v{{latest_version}}, Apple Silicon and Intel, macOS 14.0+</span>
         <span class="text-xs mt-1" style="font-size: 10pt">(100% safe Apple notarized .app file in .dmg)</span>
       </div>
@@ -39,7 +39,7 @@
         <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl drop-shadow-sm">
       </div>
     </div>
-
+<!--
     <div class="text-center mt-20 mb-10 text-4xl p-4">
       <h2 class="font-extrabold">Search processes instantly</h2>
       <p class="text-2xl mb-10">Fast real-time search.</p>
@@ -81,11 +81,11 @@
       <p class="text-2xl mb-10">Open files with your favourite tool</p>
       <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.jpg" class="rounded-2xl object-cover">
     </div>
-
+-->
     <div class="text-center mt-20 mb-10 p-4">
       <h2 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h2>
       <div class="mt-10">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style=" padding:12px; color: white; border-radius:25px;">Free Download</a>
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style="padding: 15px 40px;color: white; border-radius:25px;">Download Now</a>
       </div>
     </div>
 
@@ -103,6 +103,7 @@
     </div>
 
     <footer class="mt-20 mb-10 font-bold text-center">
+      <!--
       <div class="container mt-10 items-center justify-center mb-6">
         <div>
           <span class="block">If you like this tool, please consider buying me a coffee:</span>
@@ -117,7 +118,7 @@
         <div class="mt-6">
           <p>and writing a <a class="underline" target="_blank" href="https://senja.io/p/processspy/r/NTKt5r">testimonial</a> 😍</p>
         </div>
-      </div>
+      </div> -->
       <span class="mr-6">© 2025 ProcessSpy</span>
       <span class="mr-6">Created with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a> in <span class="text-2xl align-middle">🇪🇺</span></span>
       <span class="mr-6"><a href="/privacy_policy.html" target="_blank">Privacy policy</a></span>
