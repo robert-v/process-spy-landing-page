@@ -22,15 +22,14 @@
          </p>
          <div class="justify-items-start mt-6 text-left">
            <ul class="bg-blend-saturation list-none">
-             <li>
-               <b>highlight</b> processes with custom colors</li>
-             <li><b>search</b> process information <b>online</b></li>
+             <li><b>highlight</b> processes with custom colors</li>
              <li>view environment variables</li>
              <li>view <b>open files</b></li>
              <li>view <b>open connections</b></li>
              <li>run macOS <b>Shortcuts</b> on process start/finish</li>
              <li>get macOS process <b>with mouse click</b></li>
              <li>advanced <b>Javascript filters</b></li>
+             <li><b>advanced details:</b> Info.plist, entitlements (license only)</li>
            </ul>
          </div>
        </div>
@@ -152,7 +151,7 @@
     data() {
       return {
         downloads: null,
-        latest_version: "1.7.0"
+        latest_version: "1.7.1"
       }
     }
   }
