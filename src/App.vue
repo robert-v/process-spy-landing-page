@@ -2,13 +2,24 @@
   <div class="relative overflow-hidden container mx-auto bg-emerald-100 max-w-7xl">
     <header class="h-50 flex items-center p-4">
       <div class="flex items-center grow">
-        <img alt="ProcessSpy logo" src="./assets/logo.png" class="object-none object-center w-20 h-20 rounded-3xl">
+        <img alt="ProcessSpy logo" src="./assets/logo.png" class="-ml-2" style="width:80px; height:auto" >
         <span class="invisible sm:visible text-3xl font-bold">ProcessSpy</span>
       </div>
-      <div class="flex flex-col items-center text-center">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" rel="nofollow" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style="padding:12px; color: white; border-radius:25px;">Free Download</a>
-        <span class="text-xs mt-1" style="font-size: 10pt">v{{latest_version}}, Apple Silicon and Intel, macOS 14.0+</span>
-        <span class="text-xs mt-1" style="font-size: 10pt">(100% safe Apple notarized .app file in .dmg)</span>
+      <div class="flex flex-col items-center text-center mt-4">
+        <a
+            @click="storeDownload"
+            :href="'/archive/ProcessSpy_' + latest_version + '.dmg'"
+            rel="nofollow"
+            class="bg-emerald-500/90 hover:bg-emerald-600 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center"
+        >
+          Free Download
+        </a>
+        <span class="text-[11px] mt-1 text-gray-600">
+    v{{ latest_version }}, macOS 14+, Apple Silicon & Intel
+  </span>
+        <span class="text-[11px] text-gray-600">
+    Apple-notarized .app in .dmg (safe)
+  </span>
       </div>
     </header>
 
@@ -29,13 +40,14 @@
              <li>run macOS <b>Shortcuts</b> on process start/finish</li>
              <li>get macOS process <b>with mouse click</b></li>
              <li>advanced <b>Javascript filters</b></li>
-             <li><b>advanced details:</b> Info.plist, entitlements (license only)</li>
+             <li><b>advanced details:</b></li>
+             <li>Info.plist, entitlements, bundle ID (license only)</li>
            </ul>
          </div>
        </div>
 
       <div class="mt-5 w-full">
-        <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl drop-shadow-sm">
+        <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl drop-shadow-sm md:ml-3 md:mt-4">
       </div>
     </div>
 <!--
@@ -84,7 +96,7 @@
     <div class="text-center mt-20 mb-10 p-4">
       <h2 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h2>
       <div class="mt-10">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500 px-4 font-bold text-xl mt-4 md:text-2xl w-48 sm:w-64 place-self-end sm:place-self-auto" style="padding: 15px 40px;color: white; border-radius:25px;">Download Now</a>
+        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500/90 hover:bg-emerald-600 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center">Download Now</a>
       </div>
     </div>
 
