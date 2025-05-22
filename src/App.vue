@@ -1,109 +1,218 @@
 <template>
-  <div class="relative overflow-hidden container mx-auto bg-emerald-100 max-w-7xl">
-    <header class="h-50 flex items-center p-4">
-      <div class="flex items-center grow">
+  <div class="relative container mx-auto bg-gray-50 max-w-7xl p-6 rounded-lg shadow-md">
+
+    <header class="sticky top-0 z-50 bg-gray-50/90 h-50 flex items-center p-4 border-b border-gray-300 backdrop-blur-sm">
+
+    <div class="flex items-center grow">
         <img alt="ProcessSpy logo" src="./assets/logo.png" class="-ml-2" style="width:80px; height:auto" >
-        <span class="invisible sm:visible text-3xl font-bold">ProcessSpy</span>
+        <span class="invisible sm:visible text-3xl font-extrabold text-blue-900 ml-3">ProcessSpy</span>
       </div>
       <div class="flex flex-col items-center text-center mt-4">
         <a
             @click="storeDownload"
             :href="'/archive/ProcessSpy_' + latest_version + '.dmg'"
             rel="nofollow"
-            class="bg-emerald-500/90 hover:bg-emerald-600 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center"
+            class="bg-blue-900 hover:bg-yellow-500 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center"
         >
           Free Download
         </a>
-        <span class="text-[11px] mt-1 text-gray-600">
-    v{{ latest_version }}, macOS 14+, Apple Silicon & Intel
-  </span>
-        <span class="text-[11px] text-gray-600">
-    Apple-notarized .app in .dmg (safe)
-  </span>
+        <span class="text-xs mt-1 text-gray-500">
+        v{{ latest_version }}, macOS 14+, Apple Silicon & Intel
+      </span>
+        <span class="text-xs text-gray-500">
+        Apple-notarized .app in .dmg (safe)
+      </span>
       </div>
     </header>
 
-    <div class="md:flex mt-4 max-w-7xl">
-       <div class="md:shrink-0 md:w-1/3 p-4">
-         <h1 class="text-6xl mt-8 text-left font-extrabold">Monitor macOS Processes
-          <span class="text-6xl text-left font-extrabold bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Like a Pro.</span>
-         </h1>
-         <p class="mt-8">
-           In-depth monitoring with advanced features:
-         </p>
-         <div class="justify-items-start mt-6 text-left">
-           <ul class="bg-blend-saturation list-none">
-             <li><b>highlight</b> processes with custom colors</li>
-             <li>view environment variables</li>
-             <li>view <b>open files</b></li>
-             <li>view <b>open connections</b></li>
-             <li>run macOS <b>Shortcuts</b> on process start/finish</li>
-             <li>get macOS process <b>with mouse click</b></li>
-             <li>advanced <b>Javascript filters</b></li>
-             <li><b>advanced details:</b></li>
-             <li>Info.plist, entitlements, bundle ID (license only)</li>
-           </ul>
-         </div>
-       </div>
-
-      <div class="mt-5 w-full">
-        <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl drop-shadow-sm md:ml-3 md:mt-4">
+    <div class="md:flex mt-8 max-w-7xl">
+      <div class="md:shrink-0 md:w-1/3 p-6">
+        <h1 class="text-5xl sm:text-6xl font-extrabold text-blue-900 leading-tight">
+          Monitor macOS Processes
+          <span class="text-yellow-500 bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent"> Like a Pro.</span>
+        </h1>
+        <p class="mt-6 text-gray-700 text-lg">
+          In-depth monitoring with advanced features:
+        </p>
+        <ul class="mt-6 text-gray-600 list-disc list-inside space-y-2">
+          <li><b class="text-blue-900">Highlight</b> processes with custom colors</li>
+          <li>View environment variables</li>
+          <li>View <b class="text-blue-900">open files</b></li>
+          <li>View <b class="text-blue-900">open connections</b></li>
+          <li>Run macOS <b class="text-blue-900">Shortcuts</b> on process start/finish</li>
+          <li>Get macOS process <b class="text-blue-900">with mouse click</b></li>
+          <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
+        </ul>
       </div>
-    </div>
-<!--
-    <div class="text-center mt-20 mb-10 text-4xl p-4">
-      <h2 class="font-extrabold">Search processes instantly</h2>
-      <p class="text-2xl mb-10">Fast real-time search.</p>
-        <img alt="Search macOS processes instantly." src="/videos/search_macos_processes_instantly%202.gif" class="rounded-2xl">
-    </div>
 
-    <div class="text-center mt-20 mb-10 text-4xl p-4">
-      <h2 class="font-extrabold">Find process with a mouse click</h2>
-      <p class="text-2xl mb-10">Find the owner process of that annoying popup.</p>
-      <img alt="Find macOS process with a mouse click" src="/videos/find_macos_processes_with_mouse_click.gif" class="rounded-2xl">
-    </div>
-
-    <div class="md:flex max-w-7xl mt-20">
-      <div class="w-450 p-4">
-        <img alt="Search macOS process online, copy path and more" src="./assets/screenshot_2.png" class="rounded-2xl">
-      </div>
-      <div class="md:shrink-0 md:w-1/3 p-4 text-left w-full ml-10">
-        <h2 class="text-4xl font-bold mb-10">Useful context menu actions</h2>
-        <p>Search process information online</p>
-        <p>Show process path in Finder</p>
-        <p>Copy Path or whole Command</p>
-        <p>Quit process (SIGINT)</p>
+      <div class="mt-6 md:mt-0 md:w-2/3 flex justify-center">
+        <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl md:mt-5 ml-4 max-w-full h-auto">
       </div>
     </div>
 
-    <div class="md:flex max-w-7xl text-center mt-20">
-      <div class="w-full md:shrink-0 md:w-1/3 p-4 text-left">
-        <h2 class="text-4xl font-bold mb-10">Highlight processes with custom colors</h2>
-        <p>Choose any color to highlight process <b>Name</b> in the process table</p>
-        <p>Works also for <b>Command</b> column</p>
+    <div class="mt-20">
+      <h2 class="text-4xl font-extrabold text-center text-blue-900 mb-12">
+        More Powerful Features
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0 max-w-7xl mx-auto">
+        <!-- Feature 1 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200 flex flex-col">
+          <div class="overflow-hidden rounded-xl mb-4">
+            <img src="./assets/ProcessSpy_Tree_Structure.png" alt="Detailed Tree View" class="w-full h-auto object-cover">
+          </div>
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Detailed Tree View</h3>
+          <p class="text-gray-600">
+            ProcessSpy offers detailed tree view with the same real-time filtering and search capabilities as the main view. You can also use the same filters to highlight processes in the tree view.
+          </p>
         </div>
-      <div class="w-450 p-4">
-        <img alt="Highlight macOS process with custom color based on name or command text" src="./assets/screenshot_3.png" class="rounded-2xl object-cover">
+
+
+        <!-- Feature 2 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200">
+          <img src="./assets/javascript_filters.png" alt="Javascript filters" class="rounded-lg mb-4 w-full h-auto">
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Javascript Filters</h3>
+          <p class="text-gray-600">
+            Filters can be defined in Javascript, allowing you to create complex filters with multiple conditions.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200">
+          <img src="./assets/version_information.png" alt="Version information" class="rounded-lg mb-4 w-full h-auto">
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Version Information</h3>
+          <p class="text-gray-600">
+            ProcessSpy shows the version information of the process right in the main table.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200">
+          <img src="./assets/useful_context_menu_actions.png" alt="Useful context menu actions" class="rounded-lg mb-4 w-full h-auto">
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Useful context menu actions</h3>
+          <p class="text-gray-600">
+            Main table, open files, open connections and Dylibs all offer context menus with useful actions: Show in Finder, copy path, search process online, etc.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200">
+          <img src="./assets/advanced_info.png" alt="Advanced process info - Info.plist, bundle id, executable" class="rounded-lg mb-4 w-full h-auto">
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Advanced Process Info (paid)</h3>
+          <p class="text-gray-600">
+            With just a one click it is possible to view advanced information like entitlements, Info.plist, and bundle ID, etc.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200">
+          <img src="./assets/process_environment_variables.png" alt="Environment variables" class="rounded-lg mb-4 w-full h-auto">
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Environment variables (paid)</h3>
+          <p class="text-gray-600">
+            License also unlocks the ability to view environment variables of the process.
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="text-center mt-20 mb-10 p-4">
-      <h2 class="font-extrabold text-4xl">View open files and access them instantly</h2>
-      <p class="text-2xl mb-10">Open files with your favourite tool</p>
-      <img alt="View open files and directly open them in the chosen tool" src="./assets/screenshot_4.jpg" class="rounded-2xl object-cover">
-    </div>
--->
-    <div class="text-center mt-20 mb-10 p-4">
-      <h2 class="font-extrabold text-4xl">Join <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">{{ downloads }}</span> users monitoring with ProcessSpy</h2>
-      <div class="mt-10">
-        <a @click='storeDownload' :href="'/archive/ProcessSpy_' + latest_version + '.dmg'" class="bg-emerald-500/90 hover:bg-emerald-600 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center">Download Now</a>
+    <div class="mt-24 max-w-7xl mx-auto px-4">
+      <h2 class="text-4xl font-extrabold text-blue-900 text-center mb-12">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- FAQ Tile 1 -->
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            Is ProcessSpy safe to install on my Mac?
+          </h3>
+          <p class="text-gray-600">
+            Yes. ProcessSpy is Apple-notarized and distributed as a signed `.app` inside a `.dmg`. It’s verified and safe to use on both Intel and Apple Silicon Macs.
+          </p>
+        </div>
+
+        <!-- FAQ Tile 2 -->
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            Does ProcessSpy support older versions of macOS?
+          </h3>
+          <p class="text-gray-600">
+            ProcessSpy is designed for macOS 14 and newer. Support for earlier versions is not guaranteed and may be limited.
+          </p>
+        </div>
+
+        <!-- FAQ Tile 3 -->
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            What is the license model?
+          </h3>
+          <p class="text-gray-600">
+            Most features are free to use. Some advanced features (e.g., viewing entitlements or environment variables) may require a license. Details will be shown in the app.
+          </p>
+        </div>
+
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            Is there a trial or free version available?
+          </h3>
+          <p class="text-gray-600">
+            ProcessSpy offers a fully functional free version with core features. Certain advanced capabilities require a license purchase.
+          </p>
+        </div>
+
+        <!-- FAQ Tile 4 -->
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            Are there any limitations in free version?
+          </h3>
+          <p class="text-gray-600">
+            Free version shows wait screen with 10 seconds countdown during each startup. After dismissing the screen the tool is fully functional.
+          </p>
+        </div>
+
+        <!-- FAQ Tile 4 -->
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-lg transition-shadow duration-200">
+          <h3 class="text-lg font-semibold text-blue-900 mb-3">
+            Does ProcessSpy affect system performance?
+          </h3>
+          <p class="text-gray-600">
+            ProcessSpy is designed to be lightweight and efficient. It uses minimal CPU and memory, so it won’t slow down your Mac during monitoring.
+          </p>
+        </div>
+
+        <!-- Add more tiles as needed -->
       </div>
     </div>
 
-    <div class="flex flex-wrap justify-center text-center mt-10 mb-10 p-4">
-      <h3 class="w-full font-extrabold text-2xl">or install directly in <span class="bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent">Terminal</span>:</h3>
 
-      <div class="mt-4" style="width:500px">
+
+    <div class="mt-24 mb-16 px-4 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-900 leading-tight">
+        Trusted by <span class="bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">{{ downloads }}</span> users.
+      </h2>
+      <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+        Join developers, power users, and system administrators using ProcessSpy to monitor macOS processes with precision and clarity.
+      </p>
+
+      <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a
+            @click="storeDownload"
+            :href="'/archive/ProcessSpy_' + latest_version + '.dmg'"
+            class="bg-blue-900 hover:bg-yellow-500 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-64 text-center"
+        >
+          Download Now
+        </a>
+        <span class="text-gray-500 text-sm sm:text-base">macOS 14+, Apple Silicon & Intel</span>
+      </div>
+    </div>
+
+    <div class="flex flex-col items-center text-center mt-16 mb-24 px-4">
+      <h3 class="text-xl sm:text-2xl font-bold text-blue-900">
+        Prefer the Terminal?
+      </h3>
+      <p class="mt-2 text-gray-600 mb-4">
+        Install ProcessSpy quickly via Homebrew:
+      </p>
+
+      <div class="w-full max-w-md">
         <VCodeBlock
             code="brew install --cask processspy"
             highlightjs
@@ -113,31 +222,36 @@
       </div>
     </div>
 
-    <footer class="mt-20 mb-10 font-bold text-center">
-      <!--
-      <div class="container mt-10 items-center justify-center mb-6">
+
+    <footer class="mt-20 mb-16 px-6 py-8 bg-gray-50 text-gray-600 font-semibold text-center sm:text-left max-w-7xl mx-auto rounded-lg shadow-inner">
+      <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 sm:gap-0">
         <div>
-          <span class="block">If you like this tool, please consider buying me a coffee:</span>
+          <span>© 2025 ProcessSpy</span>
+          <span class="mx-2 hidden sm:inline">|</span>
+          <span>
+        Created with <span class="text-red-500">❤️</span> by
+        <a href="https://twitter.com/rob3rth" target="_blank" rel="noopener" class="underline text-yellow-500 hover:text-yellow-400 font-semibold">@rob3rth</a>
+        <span class="text-2xl align-middle" aria-label="European Union flag" role="img">🇪🇺</span>
+      </span>
         </div>
-        <div class="flex text-center justify-center mt-6">
-          <div class="w-32 h-32">
-            <a href="https://www.buymeacoffee.com/rob3rth" target="_blank">
-              <img alt="Buy me a coffee QR code" src="./assets/bmc_qr.png" class="rounded-2xl w-32 h-32">
-            </a>
-          </div>
+
+        <div class="flex flex-wrap justify-center sm:justify-start gap-6 text-sm sm:text-base">
+          <a href="/privacy_policy.html" target="_blank" rel="noopener" class="underline hover:text-yellow-500 transition-colors duration-200">Privacy Policy</a>
+          <a href="/archive/release_notes.html" target="_blank" rel="noopener" class="underline hover:text-yellow-500 transition-colors duration-200">Release Notes</a>
+          <span>
+        Support:
+        <a href="mailto:processspy@icloud.com" class="underline text-yellow-500 hover:text-yellow-400 transition-colors duration-200">
+          processspy@icloud.com
+        </a>
+      </span>
         </div>
-        <div class="mt-6">
-          <p>and writing a <a class="underline" target="_blank" href="https://senja.io/p/processspy/r/NTKt5r">testimonial</a> 😍</p>
-        </div>
-      </div> -->
-      <span class="mr-6">© 2025 ProcessSpy</span>
-      <span class="mr-6">Created with ❤️ by <a href="https://twitter.com/rob3rth" target="_blank">@rob3rth</a> in <span class="text-2xl align-middle">🇪🇺</span></span>
-      <span class="mr-6"><a href="/privacy_policy.html" target="_blank">Privacy policy</a></span>
-      <span class="mr-6"><a href="/archive/release_notes.html" target="_blank">Release notes</a></span>
-      <span>Support: <a class="underline" href="mailto:processspy@icloud.com">processspy@icloud.com</a></span>
+      </div>
     </footer>
-    <HelloWorld msg="ProcessSpy"/>
+
+    <HelloWorld msg="ProcessSpy" />
   </div>
+
+
 </template>
 
 <script>

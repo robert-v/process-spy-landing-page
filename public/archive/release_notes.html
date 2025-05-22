@@ -6,157 +6,291 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="/favicon.ico">
     <title>ProcessSpy - Release notes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body style="padding-left:20px; background-color: rgb(217,249,230); font-family: Avenir, Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;">
-<h1>Release notes</h1>
-<h2>Version 1.7.1</h2>
-<ul>
-    <li>Improved displaying of version information</li>
-    <li>Added Process Details: Executable, Info.plist, format, entitlements (license only)</li>
-    <li>Fixed: dylibs not displaying</li>
-</ul>
-<h2>Version 1.7.0</h2>
-<ul>
-    <li>UI refresh</li>
-    <li>Added Process Details view</li>
-    <li>Added Environment Variables view</li>
-    <li>Removed in-app Ad</li>
-</ul>
-<h2>Version 1.6.10</h2>
-<ul>
-    <li>Fixed: version information not load when tool starts in hierarchical view</li>
-</ul>
-<h2>Version 1.6.9</h2>
-<ul>
-    <li>Fixed: crash at startup on some mac models</li>
-</ul>
-<h2>Version 1.6.8</h2>
-<ul>
-    <li>Fixed: tool crashes when process user name is empty</li>
-    <li>Fixed: show path for processes without command arguments</li>
-</ul>
+<body class="bg-gray-50 font-sans text-gray-800 antialiased px-6 py-10 max-w-4xl mx-auto">
+<h1 class="text-4xl font-extrabold text-blue-900 mb-12 text-center">
+    Release Notes
+</h1>
 
-<h2>Version 1.6.7</h2>
-<ul>
-    <li>Added Copy currently selected processes as JSON menu item</li>
-    <li>Added startup countdown screen for free version</li>
-</ul>
-<h2>Version 1.6.6</h2>
-<ul>
-    <li>Added paid option to remove ads</li>
-</ul>
-<h2>Version 1.6.5</h2>
-<ul>
-    <li>Stability improvements</li>
-    <li>Added ad to keep this app free</li>
-</ul>
-<h2>Version 1.6.4</h2>
-<ul>
-    <li>Added new columns: Resident Memory, Virtual Memory, Threads</li>
-</ul>
-<h2>Version 1.6.3</h2>
-<ul>
-    <li>Performance and stability improvements</li>
-</ul>
-<h2>Version 1.6.2</h2>
-<ul>
-    <li>Introduced user defined filters via JavaScript expressions - see settings</li>
-    <li>Bug fixes and performance improvements</li>
-</ul>
-<h2>Version 1.6.1</h2>
-<ul>
-    <li>Added keyboard shortcut to Quit process (Delete, DEL)</li>
-    <li>Added setting to show process Quitting confirmation dialog</li>
-    <li>Fixed: dynamic sorting based on CPU% didn't work in hierarchical view</li>
-</ul>
-<h2>Version 1.6.0</h2>
-<ul>
-    <li>Added hierarchical view (known issue - expander arrows always shown in the first column at startup)</li>
-    <li>UI tweaks</li>
-</ul>
-<h2>Version 1.5.4</h2>
-<ul>
-    <li>Added possibility to select search case sensitivity (see settings)</li>
-    <li>Fixed: searching doesn't highlight all occurrences of the string</li>
-</ul>
-<h2>Version 1.5.3</h2>
-<ul>
-    <li>Fixed: made all columns in the main table resizable</li>
-    <li>Fixed: main table - persist column settings across launches</li>
-</ul>
-<h2>Version 1.5.2</h2>
-<ul>
-    <li>Added shortcut for searching: cmd+F</li>
-    <li>Added setting for online search query format</li>
-</ul>
-<h2>Version 1.5.1</h2>
-<ul>
-    <li>Updated application icon</li>
-</ul>
-<h2>Version 1.5.0</h2>
-<ul>
-    <li>Added Dylibs tab (see Settings)</li>
-</ul>
-<h2>Version 1.4.3</h2>
-<ul>
-    <li>Fixed: IPv6 addresses not shown in Sockets panel</li>
-</ul>
-<h2>Version 1.4.2</h2>
-<ul>
-    <li>Added search and sorting for Files tab</li>
-    <li>Minor improvements</li>
-</ul>
-<h2>Version 1.4.1</h2>
-<ul>
-    <li>Minor improvements</li>
-    <li>Fixed: crash on startup (at least I hope so)</li>
-    <li>Fixed: button to search for a process with mouse click invisible in dark mode</li>
-    <li>Fixed: Name column can't be resized</li>
-    <li>Fixed: search for a process with mouse clicks now resets search string and shows all processes</li>
-</ul>
-<h2>Version 1.4.0</h2>
-<ul>
-    <li>Added possibility to select process with a mouse click (requires accessibility permissions)</li>
-    <li>Minor improvements</li>
-</ul>
-<h2>Version 1.3.5</h2>
-<ul>
-    <li>Added possibility to run macOS Shortcuts on process start and process finish</li>
-    <li>Minor improvements</li>
-</ul>
-<h2>Version 1.3.3</h2>
-<ul>
-    <li>Added Version column</li>
-    <li>Performance optimizations</li>
-    <li>Fixed "Show in Finder" and "Copy Path" actions for commands with multiple arguments</li>
-</ul>
-<h2>Version 1.3.0</h2>
-<ul>
-    <li>Added movable columns in the main table</li>
-    <li>Added command tab</li>
-    <li>Added Open With context menu in Files tab</li>
-    <li>Minor improvements</li>
-</ul>
-<h2>Version 1.2.2</h2>
-<ul>
-    <li>Changed hosting, minor improvements</li>
-</ul>
-<h2>Version 1.2.1</h2>
-<ul>
-    <li>Improvements regarding automatic updates</li>
-</ul>
-<h2>Version 1.2</h2>
-<ul>
-    <li>New pane showing open files and network connections</li>
-    <li>New column showing CPU %</li>
-</ul>
-<h2>Version 1.1</h2>
-<ul>
-    <li>New columns in process table</li>
-    <li>view open files by process + show in Finder</li>
-    <li>View open connections by process</li>
-    <li>Search results no longer depend on refresh interval</li>
-</ul>
+<div class="space-y-8">
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.7.1
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Improved displaying of version information</li>
+            <li>Added Process Details: Executable, Info.plist, format, entitlements (license only)</li>
+            <li>Fixed: dylibs not displaying</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.7.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>UI refresh</li>
+            <li>Added Process Details view</li>
+            <li>Added Environment Variables view</li>
+            <li>Removed in-app Ad</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.10
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: version information not load when tool starts in hierarchical view</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.9
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: crash at startup on some mac models</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.8
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: tool crashes when process user name is empty</li>
+            <li>Fixed: show path for processes without command arguments</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.7
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added Copy currently selected processes as JSON menu item</li>
+            <li>Added startup countdown screen for free version</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.6
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added paid option to remove ads</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.5
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Stability improvements</li>
+            <li>Added ad to keep this app free</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.4
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added new columns: Resident Memory, Virtual Memory, Threads</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.3
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Performance and stability improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.2
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Introduced user defined filters via JavaScript expressions - see settings</li>
+            <li>Bug fixes and performance improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.1
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added keyboard shortcut to Quit process (Delete, DEL)</li>
+            <li>Added setting to show process Quitting confirmation dialog</li>
+            <li>Fixed: dynamic sorting based on CPU% didn't work in hierarchical view</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.6.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added hierarchical view (known issue - expander arrows always shown in the first column at startup)</li>
+            <li>UI tweaks</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.5.4
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added possibility to select search case sensitivity (see settings)</li>
+            <li>Fixed: searching doesn't highlight all occurrences of the string</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.5.3
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: made all columns in the main table resizable</li>
+            <li>Fixed: main table - persist column settings across launches</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.5.2
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added shortcut for searching: cmd+F</li>
+            <li>Added setting for online search query format</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.5.1
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Updated application icon</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.5.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added Dylibs tab (see Settings)</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.4.3
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: IPv6 addresses not shown in Sockets panel</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.4.2
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added search and sorting for Files tab</li>
+            <li>Minor improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.4.1
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Minor improvements</li>
+            <li>Fixed: crash on startup (at least I hope so)</li>
+            <li>Fixed: button to search for a process with mouse click invisible in dark mode</li>
+            <li>Fixed: Name column can't be resized</li>
+            <li>Fixed: search for a process with mouse clicks now resets search string and shows all processes</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.4.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added possibility to select process with a mouse click (requires accessibility permissions)</li>
+            <li>Minor improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.3.5
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added possibility to run macOS Shortcuts on process start and process finish</li>
+            <li>Minor improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.3.3
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added Version column</li>
+            <li>Performance optimizations</li>
+            <li>Fixed "Show in Finder" and "Copy Path" actions for commands with multiple arguments</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.3.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>UI redesign and simplification</li>
+            <li>Fixed: startup crash on macOS 10.13</li>
+            <li>Added "Copy to Clipboard" action for process path</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.2.1
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Fixed: occasional crashes on launch</li>
+            <li>Performance improvements</li>
+        </ul>
+    </article>
+
+    <article class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300 w-full">
+        <h2 class="text-xl font-bold text-blue-900 mb-4 border-b border-blue-200 pb-2">
+            Version 1.2.0
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>Added Search</li>
+            <li>Added Columns: CPU, RAM, Threads</li>
+            <li>Fixed: incorrect CPU % values</li>
+        </ul>
+    </article>
+</div>
 </body>
+
+
+
+
+
 </html>
