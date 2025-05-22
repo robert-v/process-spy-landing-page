@@ -236,6 +236,7 @@
         </div>
 
         <div class="flex flex-wrap justify-center sm:justify-start gap-6 text-sm sm:text-base">
+          <a href="/eula.html" target="_blank" rel="noopener" class="underline hover:text-yellow-500 transition-colors duration-200">License Agreement</a>
           <a href="/privacy_policy.html" target="_blank" rel="noopener" class="underline hover:text-yellow-500 transition-colors duration-200">Privacy Policy</a>
           <a href="/archive/release_notes.html" target="_blank" rel="noopener" class="underline hover:text-yellow-500 transition-colors duration-200">Release Notes</a>
           <span>

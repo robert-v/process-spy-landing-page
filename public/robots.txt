@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /privacy_policy.html
+Disallow: /eula.html
 Disallow: /archive/
 Sitemap: https://process-spy.app/sitemap.xml
