@@ -20,7 +20,7 @@
         v{{ latest_version }}, macOS 14+, Apple Silicon & Intel
       </span>
         <span class="text-xs text-gray-500">
-        Apple-notarized .app in .dmg (safe)
+        Apple-notarized .app in .dmg (~3MB)
       </span>
       </div>
     </header>
@@ -48,6 +48,13 @@
       <div class="mt-6 md:mt-0 md:w-2/3 flex justify-center">
         <img alt="In-depth macOS process monitoring" src="./assets/main.png" class="rounded-2xl md:mt-5 ml-4 max-w-full h-auto">
       </div>
+    </div>
+
+    <div class="mt-24 px-4 text-center max-w-4xl mx-auto">
+      <h2 class="text-3xl font-extrabold text-blue-900 mb-4">Designed for macOS</h2>
+      <p class="text-lg text-gray-600">
+        ProcessSpy uses native APIs and UI elements to deliver a fast, responsive, and Mac-first experience. No bloated cross-platform layers — just smooth performance and tight system integration.
+      </p>
     </div>
 
     <div class="mt-20">
@@ -112,6 +119,72 @@
         </div>
       </div>
     </div>
+
+    <div class="mt-24 max-w-5xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-extrabold text-blue-900 mb-6">
+        Why I Built ProcessSpy
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        I was juggling several Java apps, each using a different JDK version — and I couldn’t tell which process was which in Activity Monitor.
+        All I saw was “java”. No version, no path, no details.
+        <br class="hidden sm:inline" />
+        So I built <span class="font-semibold text-blue-900">ProcessSpy</span> — a developer-focused tool that shows full command-line info,
+        version details, environment variables, and more.
+        <br class="hidden sm:inline" />
+        -Robert
+      </p>
+    </div>
+
+    <div class="mt-16 max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-blue-900 text-center mb-8">
+        How ProcessSpy Compares
+      </h2>
+
+      <div class="overflow-x-auto">
+        <table class="min-w-full table-auto border-collapse border border-gray-300 rounded-lg overflow-hidden shadow-sm">
+          <thead>
+          <tr class="bg-blue-900 text-white text-left">
+            <th class="p-4 font-semibold">Feature</th>
+            <th class="p-4 font-semibold">Activity Monitor</th>
+            <th class="p-4 font-semibold">ProcessSpy</th>
+          </tr>
+          </thead>
+          <tbody class="text-gray-700">
+          <tr class="bg-white border-t border-gray-200">
+            <td class="p-4">See full command-line & path</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅</td>
+          </tr>
+          <tr class="bg-gray-50 border-t border-gray-200">
+            <td class="p-4">Distinguish between same-named processes</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅ Shows versions and paths</td>
+          </tr>
+          <tr class="bg-white border-t border-gray-200">
+            <td class="p-4">Entitlements, Info.plist, Bundle ID</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅ (paid)</td>
+          </tr>
+          <tr class="bg-white border-t border-gray-200">
+            <td class="p-4">Environment variables</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅ (paid)</td>
+          </tr>
+          <tr class="bg-gray-50 border-t border-gray-200">
+            <td class="p-4">Advanced filters (JS-based)</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅</td>
+          </tr>
+          <tr class="bg-gray-50 border-t border-gray-200">
+            <td class="p-4">Run Shortcuts on process events</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
 
     <div class="mt-24 max-w-7xl mx-auto px-4">
       <h2 class="text-4xl font-extrabold text-blue-900 text-center mb-12">
