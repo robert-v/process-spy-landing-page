@@ -150,7 +150,7 @@
           </tr>
           </thead>
           <tbody class="text-gray-700">
-          <tr class="bg-white border-t border-gray-200">
+          <tr class="bg-gray-50 border-gray-200">
             <td class="p-4">See full command-line & path</td>
             <td class="p-4">❌</td>
             <td class="p-4">✅</td>
@@ -167,6 +167,11 @@
           </tr>
           <tr class="bg-white border-t border-gray-200">
             <td class="p-4">Environment variables</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅ (paid)</td>
+          </tr>
+          <tr class="bg-white border-t border-gray-200">
+            <td class="p-4">Signature info</td>
             <td class="p-4">❌</td>
             <td class="p-4">✅ (paid)</td>
           </tr>
