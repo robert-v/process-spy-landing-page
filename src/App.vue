@@ -129,7 +129,7 @@
         All I saw was “java”. No version, no path, no details.
         <br class="hidden sm:inline" />
         So I built <span class="font-semibold text-blue-900">ProcessSpy</span> — a developer-focused tool that shows full command-line info,
-        version details, environment variables, and more.
+        version details, environment variables, and more. I hope you will find it as useful as I do.
         <br class="hidden sm:inline" />
         -Robert
       </p>
