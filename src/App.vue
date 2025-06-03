@@ -360,6 +360,19 @@
       }
     }
   }
+
+  window.addEventListener('load', () => {
+    const url = new URL(window.location.href)
+    if (url.searchParams.has('ref')) {
+      // Optionally store the ref param somewhere
+      const ref = url.searchParams.get('ref')
+
+      if (ref) {
+        url.searchParams.delete('ref')
+        window.history.replaceState({}, '', url.pathname + url.hash)
+      }
+    }
+  })
 </script>
 
 <style>
