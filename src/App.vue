@@ -362,15 +362,10 @@
   }
 
   window.addEventListener('load', () => {
-    const url = new URL(window.location.href)
-    if (url.searchParams.has('ref')) {
-      // Optionally store the ref param somewhere
-      const ref = url.searchParams.get('ref')
-
-      if (ref) {
-        url.searchParams.delete('ref')
-        window.history.replaceState({}, '', url.pathname + url.hash)
-      }
+    if (window.location.search) {
+      const url = new URL(window.location.href)
+      const cleanUrl = url.origin + url.pathname + url.hash
+      window.history.replaceState({}, '', cleanUrl)
     }
   })
 </script>
