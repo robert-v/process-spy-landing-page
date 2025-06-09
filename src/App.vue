@@ -356,7 +356,7 @@
     data() {
       return {
         downloads: null,
-        latest_version: "1.7.5"
+        latest_version: "1.7.6"
       }
     }
   }
