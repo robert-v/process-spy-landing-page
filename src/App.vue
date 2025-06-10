@@ -38,7 +38,7 @@
           <li><b class="text-blue-900">Highlight</b> processes with custom colors</li>
           <li>View environment variables</li>
           <li>View <b class="text-blue-900">open files</b></li>
-          <li>View <b class="text-blue-900">open connections</b></li>
+          <li>View <b class="text-blue-900">open connections (TCP,UDP)</b></li>
           <li>Run macOS <b class="text-blue-900">Shortcuts</b> on process start/finish</li>
           <li>Get macOS process <b class="text-blue-900">with mouse click</b></li>
           <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
@@ -159,6 +159,11 @@
             <td class="p-4">Distinguish between same-named processes</td>
             <td class="p-4">❌</td>
             <td class="p-4">✅ Shows versions and paths</td>
+          </tr>
+          <tr class="bg-gray-50 border-t border-gray-200">
+            <td class="p-4">Cumulative values in hierarchy mode</td>
+            <td class="p-4">❌</td>
+            <td class="p-4">✅ CPU, Memory, Threads</td>
           </tr>
           <tr class="bg-white border-t border-gray-200">
             <td class="p-4">Entitlements, Info.plist, Bundle ID</td>
