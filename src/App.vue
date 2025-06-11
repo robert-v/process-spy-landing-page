@@ -66,11 +66,11 @@
         <!-- Feature 1 -->
         <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition-all duration-200 flex flex-col">
           <div class="overflow-hidden rounded-xl mb-4">
-            <img src="./assets/ProcessSpy_Tree_Structure.png" alt="Detailed Tree View" class="w-full h-auto object-cover">
+            <img src="./assets/advanced_tree_view.png" alt="Advanced Tree View" class="w-full h-auto object-cover">
           </div>
-          <h3 class="text-xl font-bold text-blue-900 mb-2">Detailed Tree View</h3>
+          <h3 class="text-xl font-bold text-blue-900 mb-2">Advanced Tree View</h3>
           <p class="text-gray-600">
-            ProcessSpy offers detailed tree view with the same real-time filtering and search capabilities as the main view. You can also use the same filters to highlight processes in the tree view.
+            ProcessSpy offers detailed tree view with the same real-time filtering and search capabilities (including JS filters) as the main view. It can also show cumulative totals for CPU, Memory and Threads.
           </p>
         </div>
 
