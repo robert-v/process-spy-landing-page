@@ -35,12 +35,12 @@
           In-depth monitoring with advanced features:
         </p>
         <ul class="mt-6 text-gray-600 list-disc list-inside space-y-2">
-          <li><b class="text-blue-900">Highlight</b> processes with custom colors</li>
-          <li>View environment variables</li>
+          <li><b class="text-blue-900">Cumulative totals</b> in tree view</li>
+          <li><b class="text-blue-900">Mini cpu graph</b> for each process</li>
+          <li><b class="text-blue-900">Version</b> information</li>
           <li>View <b class="text-blue-900">open files</b></li>
-          <li>View <b class="text-blue-900">open connections (TCP,UDP)</b></li>
           <li>Run macOS <b class="text-blue-900">Shortcuts</b> on process start/finish</li>
-          <li>Get macOS process <b class="text-blue-900">with mouse click</b></li>
+          <li>Select process <b class="text-blue-900">by clicking on the screen</b></li>
           <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
         </ul>
       </div>
