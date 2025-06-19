@@ -14,7 +14,7 @@
             rel="nofollow"
             class="bg-blue-900 hover:bg-yellow-500 text-white font-semibold text-lg sm:text-xl px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all duration-200 w-48 sm:w-64 text-center"
         >
-          Free Download
+          Download Now
         </a>
         <span class="text-xs mt-1 text-gray-500">
         v{{ latest_version }}, macOS 14+, Apple Silicon & Intel
@@ -40,7 +40,7 @@
           <li><b class="text-blue-900">Version</b> information</li>
           <li>Advanced filterable <b class="text-blue-900">tree view</b></li>
           <li>macOS <b class="text-blue-900">Shortcuts</b> integration</li>
-          <li><b class="text-blue-900">Identify</b> process <b class="text-blue-900">by clicking on the screen</b></li>
+          <li><b class="text-blue-900">Point-and-click process discovery</b></li>
           <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
         </ul>
       </div>
