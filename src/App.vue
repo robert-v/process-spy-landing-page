@@ -38,9 +38,9 @@
           <li><b class="text-blue-900">Cumulative totals</b> in tree view</li>
           <li><b class="text-blue-900">Mini cpu graph</b> for each process</li>
           <li><b class="text-blue-900">Version</b> information</li>
-          <li>View <b class="text-blue-900">open files</b></li>
-          <li>Run macOS <b class="text-blue-900">Shortcuts</b> on process start/finish</li>
-          <li>Select process <b class="text-blue-900">by clicking on the screen</b></li>
+          <li>Advanced filterable <b class="text-blue-900">tree view</b></li>
+          <li>macOS <b class="text-blue-900">Shortcuts</b> integration</li>
+          <li><b class="text-blue-900">Identify</b> process <b class="text-blue-900">by clicking on the screen</b></li>
           <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
         </ul>
       </div>
