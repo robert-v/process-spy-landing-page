@@ -218,7 +218,7 @@
             Does ProcessSpy support older versions of macOS?
           </h3>
           <p class="text-gray-600">
-            ProcessSpy is designed for macOS 14 and newer. Support for earlier versions is not guaranteed and may be limited.
+            ProcessSpy is designed for macOS 14 and newer.
           </p>
         </div>
 
@@ -247,7 +247,7 @@
             Are there any limitations in free version?
           </h3>
           <p class="text-gray-600">
-            Free version shows wait screen with 10 seconds countdown during each startup. After dismissing the screen the tool is fully functional.
+            Free version shows wait screen with 10 seconds countdown during each startup. After dismissing the screen the tool is fully functional (except paid features).
           </p>
         </div>
 
