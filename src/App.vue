@@ -361,7 +361,7 @@
     data() {
       return {
         downloads: null,
-        latest_version: "1.8.0"
+        latest_version: "1.8.1"
       }
     }
   }
