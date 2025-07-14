@@ -42,6 +42,7 @@
           <li>macOS <b class="text-blue-900">Shortcuts</b> integration</li>
           <li><b class="text-blue-900">Point-and-click process discovery</b></li>
           <li>Advanced <b class="text-blue-900">Javascript filters</b></li>
+          <li><b class="text-blue-900">JSON</b> export</li>
         </ul>
       </div>
 
